@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @font-face {
+            font-family:"Contrial" ;
+            src: url("assets/fonts/Contrail_One/ContrailOne-Regular.ttf");
+        }
+        @font-face {
+            font-family: "poppins";
+            src: url("assets/fonts/Poppins/Poppins-Light.ttf");
+        }
+        @font-face {
+            font-family: "poppins-bold";
+            src: url("assets/fonts/Poppins/Poppins-SemiBold.ttf");
+        }
+        body{
+            background-color: #181818;
+            color: white;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+        .h-img{
+            width: 100%;
+        }
+        .h-heading{
+            font-size: 4rem;
+            font-family: "Contrial";
+        }
+        .h-subheading{
+            
+            font-family: "poppins";
+        }
+        .h-heading-color{
+            color:#F7B41A;
+        }
+
+        .left{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .btn{
+            background-color: #F7B41A;
+            border: none;
+            border-radius: 50px;
+            width: 25%;
+            color: white;
+            margin-top: 2rem;
+            padding: 15px;
+            font-size: 1.1rem;
+            font-family: "poppins-bold";
+
+        }
+        .logo{
+            width: 120px;
+        }
+        .menu a{
+            color: white;
+            text-decoration: none;
+            font-family: "poppins";
+            margin-left: 1rem;
+            font-size: 1.2rem;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <img class="logo" src="assets/images/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Menu</a>
+            <a href="">Contact</a>
+        </div>
+        <div>
+            <img src="assets/images/icons/search.png" alt="">
+            <img src="assets/images/icons/cart.png" alt="">
+            <button>
+                <img src="assets/images/icons/logout.png" alt="">Login
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <div class="left">
+                <div class="h-heading">Grab Big Deals on <span class="h-heading-color">Yummy Meals!</span></div>
+                <div class="h-subheading">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores aut sequi aliquid 
+                    labore, dolorem, sit quisquam impedit amet quo quaerat commodi 
+                </div>
+                <button class="btn">Get Started</button>
+            </div>
+            <div class="right">
+                <img class="h-img" src="assets/images/header.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+    
+</body>
+</html>

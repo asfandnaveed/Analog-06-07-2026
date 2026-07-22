@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Contrial";
+    src: url("../fonts/Contrail_One/ContrailOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "poppins-bold";
+    src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+body {
+    background-color: #181818;
+    color: white;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.h-img {
+    width: 100%;
+}
+
+.h-heading {
+    font-size: 4rem;
+    font-family: "Contrial";
+}
+
+.h-subheading {
+
+    font-family: "poppins";
+}
+
+.h-heading-color {
+    color: #F7B41A;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #F7B41A;
+    border: none;
+    border-radius: 50px;
+    width: 25%;
+    color: white;
+    margin-top: 2rem;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-family: "poppins-bold";
+
+}
+
+.logo {
+    width: 120px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: "poppins";
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.img-icon {
+    width: 25px;
+    padding-left: 20px;
+}
+
+.btn-header {
+    border: 2px solid #F7B41A;
+    border-radius: 30px;
+    background-color: #181818;
+    color: white;
+    font-family: "poppins";
+}
+
+.rating-img {
+    width: 80px;
+    position: absolute;
+}
+
+.rating-main {
+    position: relative;
+    width: 30%;
+    height: 90px;
+    /* border: 3px solid #F7B41A; */
+}
+
+.p-img-1 {
+    left: 60px;
+}
+
+.p-img-2 {
+    left: 120px;
+}

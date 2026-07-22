@@ -1,0 +1,66 @@
+body{
+    font-family: "Lexend";
+}
+.h-heading{
+    font-size: 3rem;
+    
+    font-weight:700;
+}
+.h-heading span{
+    color: #FF6000;
+}
+.h-bg-color{
+    background-color: #FFF2E6;
+}
+.btn-order-now{
+    background-color: #FF7B2B;
+    border-color: #FF7B2B;
+}
+.btn-order-now:hover{
+    background-color: #e97126;
+    border-color: #e97126;
+}
+.btn-order-now:active{
+    background-color: #ca6120 !important;
+    border-color: #ca6120 !important;
+}
+
+.btn-track-order{
+    border-color: #FF7B2B;
+    color: #FF7B2B;
+}
+.btn-track-order:hover{
+    border-color: #FF7B2B;
+    background-color: #FF7B2B;
+}
+.btn-track-order:active{
+     background-color: #ca6120 !important;
+    border-color: #ca6120 !important;
+}
+.delivery-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.delivery-subheading{
+    font-size: 0.9rem;
+    color: #939393;
+}
+.h-spacing{
+    padding-bottom: 6rem;
+}
+.indian-dish-space{
+    margin-top: 6rem;
+}
+.indian-dish-subheading{
+    font-size: 0.9rem;
+    color: #B3B3B3;
+}
+.indian-dish-name{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.indian-dish-link{
+    text-decoration: none;
+    color: #FF6000;
+    font-size: 1.2rem;
+}

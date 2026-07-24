@@ -1,66 +1,125 @@
-body{
+body {
     font-family: "Lexend";
 }
-.h-heading{
-    font-size: 3rem;
-    
-    font-weight:700;
+
+.h-heading {
+    font-size: 2.2rem;
+
+    font-weight: 700;
 }
-.h-heading span{
+
+.h-heading span {
     color: #FF6000;
 }
-.h-bg-color{
+
+.h-bg-color {
     background-color: #FFF2E6;
 }
-.btn-order-now{
+
+.btn-order-now {
     background-color: #FF7B2B;
     border-color: #FF7B2B;
 }
-.btn-order-now:hover{
+
+.btn-order-now:hover {
     background-color: #e97126;
     border-color: #e97126;
 }
-.btn-order-now:active{
+
+.btn-order-now:active {
     background-color: #ca6120 !important;
     border-color: #ca6120 !important;
 }
 
-.btn-track-order{
+.btn-track-order {
     border-color: #FF7B2B;
     color: #FF7B2B;
 }
-.btn-track-order:hover{
+
+.btn-track-order:hover {
     border-color: #FF7B2B;
     background-color: #FF7B2B;
 }
-.btn-track-order:active{
-     background-color: #ca6120 !important;
+
+.btn-track-order:active {
+    background-color: #ca6120 !important;
     border-color: #ca6120 !important;
 }
-.delivery-heading{
+
+.delivery-heading {
     font-size: 1.5rem;
     font-weight: 500;
 }
-.delivery-subheading{
+
+.delivery-subheading {
     font-size: 0.9rem;
     color: #939393;
 }
-.h-spacing{
-    padding-bottom: 6rem;
+
+.h-spacing {
+    padding-bottom: 10.5rem;
 }
-.indian-dish-space{
-    margin-top: 6rem;
+
+.indian-dish-space {
+    margin-top: 10.5rem;
 }
-.indian-dish-subheading{
+
+.indian-dish-subheading {
     font-size: 0.9rem;
     color: #B3B3B3;
 }
-.indian-dish-name{
+
+.indian-dish-name {
     font-size: 1.3rem;
     font-weight: 500;
 }
-.indian-dish-link{
+
+.indian-dish-link {
     text-decoration: none;
     color: #FF6000;
     font-size: 1.2rem;
+}
+
+@media (min-width : 576px) {
+
+    .h-heading {
+        font-size: 2.5rem;
+    }
+
+    .indian-dish-space {
+        margin-top: 10rem;
+    }
+    .h-spacing {
+        padding-bottom: 10rem;
+    }
+}
+
+@media (min-width : 768px) {
+
+    .h-heading {
+        font-size: 2.7rem;
+    }
+
+    .indian-dish-space {
+        margin-top: 10rem;
+    }
+    .h-spacing {
+        padding-bottom: 9rem;
+    }
+}
+
+@media (min-width : 992px) {
+
+    .h-heading {
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+
+    .indian-dish-space {
+        margin-top: 6rem;
+    }
+
+    .h-spacing {
+        padding-bottom: 6rem;
+    }
 }

@@ -1,0 +1,41 @@
+:root{
+    --text-color: white;
+    --primary1:#FFAB53;
+    --primary2:#FFD0A7;
+
+}
+
+
+
+body{
+    background: linear-gradient(70deg,var(--primary1),var(--primary2)) ;
+    
+}
+.h-heading{
+    color: var(--text-color);
+    font-size: 4.3rem;
+    font-weight: 700;
+}
+.h-subheading{
+    color: var(--text-color);
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.explore-div i{
+    font-size: 3.5rem;
+    color: var(--text-color);
+}
+.explore-div a{
+    font-size: 1rem;
+    color: var(--text-color);
+    text-decoration: none;
+}
+.explore-div button{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--primary1);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top:0.7rem ;
+    padding-bottom: 0.7rem;
+}

@@ -115,6 +115,18 @@ body {
     width: 70%;
     transform: translate(50%, -50%);
 }
+.search-icon{
+    background-color: #FF6000;
+    width: 40px;
+    height: 40px;
+    color: white;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
 
 @media (min-width : 576px) {
 

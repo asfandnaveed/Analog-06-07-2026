@@ -11,5 +11,10 @@ ____________________________________________
 # FOOD DASH FIGMA DESIGN 
 https://www.figma.com/design/xBYScoGJGRzzGMN5M6Ync5/Food-Dash-Website--Community-?node-id=167-1037&p=f&t=dijryumkpkzEAGAD-0
 
+____________________________________________
+
+# BURGER FIGMA DESIGN 
+https://www.figma.com/design/PdG5rDOIxtjLZdLHk4oStl/Food-Website-UI-Design-Tutorial-in-Figma--Using-No-Cod--Community---Copy-?node-id=4892-2&t=VQFoEcRHBQoVJlXk-0
+
 
 

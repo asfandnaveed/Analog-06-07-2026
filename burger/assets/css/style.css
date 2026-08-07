@@ -2,6 +2,8 @@
     --text-color: white;
     --primary1:#FFAB53;
     --primary2:#FFD0A7;
+    --bg-review-box:white;
+    --review-box-text-color : #FF6947;
 
 }
 
@@ -38,4 +40,19 @@ body{
     padding-right: 2.5rem;
     padding-top:0.7rem ;
     padding-bottom: 0.7rem;
+}
+.box-size{
+    width: 250px;
+    height: 110px;
+    background-color: var(--bg-review-box);
+    border-radius: 15px;
+    z-index: 2;
+
+    color: var(--review-box-text-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.box-rotate{
+    transform: rotate(8deg);
+    opacity: 0.8;
 }
